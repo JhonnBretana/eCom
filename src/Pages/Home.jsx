@@ -28,7 +28,7 @@ function Home() {
       
     
 
-        <div className='flex flex-col md:flex-row pt-20 px-5 justify-center items-center  mt-20 '> 
+        <div className='flex flex-col md:flex-row pt-20 px-5 justify-center items-center  mt-10 '> 
 
           
           {/*min-h-[90vh] means minimum height of 90vh*/}
