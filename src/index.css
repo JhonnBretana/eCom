@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+
+
+@font-face {
+    font-family: 'Persona-Aura';
+    src: url('./assets/font/Persona Aura.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .persona{
+    font-family: 'Persona-Aura';
+  }
