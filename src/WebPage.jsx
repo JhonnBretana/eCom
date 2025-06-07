@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Shared/Header'
 import Home from './Pages/home'
 import Benifits from './Pages/Benifits'
+import AboutUs from './Pages/AboutUs'
 
 function WebPage() {
   return (
@@ -10,6 +11,7 @@ function WebPage() {
       <main className="flex-grow">
         <Home />
         <Benifits />
+        <AboutUs />
       </main>
     </div>
   )
