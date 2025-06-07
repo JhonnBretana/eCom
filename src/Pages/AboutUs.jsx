@@ -32,13 +32,13 @@ function AboutUs() {
 
             {/*our mission*/}
             <div className='flex flex-col items-center  bg-[#537D5D] rounded-lg p-4  text-white text-center shadow-xl'>
-                <h1 className='text-2xl font-bold md:text-5xl pt-10'>Our Mission</h1>
+                <h1 className='text-2xl font-bold md:text-5xl pt-1 md:pt-10'>Our Mission</h1>
                 <p className='text-sm md:text-lg mt-10'>Our mission is to provide safe, effective, and natural herbal remedies that support your health and well-being. We believe in the power of nature, backed by science, and are committed to delivering products that you and your family can trust.</p>
             </div>
 
             {/*our vision*/}
             <div className='flex flex-col items-center  bg-[#537D5D] rounded-lg p-4  text-white text-center shadow-xl'>
-                <h1 className='text-2xl font-bold md:text-5xl pt-10'>Our Vision</h1>
+                <h1 className='text-2xl font-bold md:text-5xl pt-1 md:pt-10'>Our Vision</h1>
                 <p className='text-sm md:text-lg mt-10'>Our vision is to be the leading provider of plant-based wellness solutions, inspiring healthier communities and a deeper connection to nature's healing power.</p>
             </div>
             
