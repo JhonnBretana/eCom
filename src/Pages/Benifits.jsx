@@ -90,7 +90,7 @@ function Benifits() {
 
                     {/*text*/} 
                         <div className=' p-10 flex flex-col items-center justify-center gap-10 md:w-1/2 '>
-                            <h1 className='text-white text-3xl font-bold md:text-5xl '>Lagundi Herbal Benefits </h1>
+                            <h1 className='text-white text-2xl font-bold md:text-5xl '>Lagundi Herbal Benefits </h1>
                             <p className='text-white text-base md:text-lg text-center'>A heartwarming moment captures a Southeast Asian mother lovingly giving Lagundi herbal syrup to her young son using a small plastic medicine cup. They are seated on a cozy sofa in a sunlit living room, with the boy calmly sipping the syrup while his cheerful sister watches beside them. The mother holds the Lagundi bottle, clearly labeled, reinforcing the natural remedy’s presence. The scene evokes a sense of family care, wellness, and trust in herbal medicine.</p>
                         </div>
                 </div>
