@@ -37,7 +37,7 @@ a() {
             </div>
 
               <div>
-                <hr className=' border-t border-[#9EBC8A] my-4' />
+                <hr className=' border-t border-[#9EBC8A] my-5 ' />
             </div>
 
                 <div>

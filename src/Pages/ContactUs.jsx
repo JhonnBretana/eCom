@@ -4,17 +4,17 @@ import { FaEnvelope, FaPhone } from 'react-icons/fa';
 
 function ContactUs() {
   return (
-    <div className='min-h-screen bg-[#9EBC8A] mt-10'>
+    <div className=' bg-[#9EBC8A] mt-10'>
         <div>
             <div className='flex flex-col items-center justify-center bg-[#73946B] w-full h-40 relative '>
                 <h1 className=" text-5xl text-white persona" >Contact Us</h1>
             </div>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-10 px-5 mt-10 mb-10 '>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-10 px-5 mt-10 mb-10 w-full xl:max-w-6xl mx-auto'>
 
                  {/*contact*/}
                 <div className='flex flex-col items-center justify-center bg-[#73946B] rounded-lg p-4
-                 w-full  '>
+                    '>
 
                     <h1 className='text-2xl md:text-4xl text-white persona' >Contact Details</h1>
 
@@ -47,7 +47,7 @@ function ContactUs() {
 
                     {/*contact form*/}
                 <div className='  rounded-lg bg-[#73946B]
-                 w-full shadow-lg h-full p-6  backdrop-blur-md opacity-100 border border-[#73946B4D]  '>
+                 shadow-lg h-full p-6  backdrop-blur-md opacity-100 border border-[#73946B4D]  '>
                     <h1 className='text-2xl md:text-4xl text-white persona text-center' >Contact Form</h1>
                     <p className=' text-sm text-white mb-4 mt-2 '>
                         Feel free to contact us any time. we will get back to you as soon as we can.
