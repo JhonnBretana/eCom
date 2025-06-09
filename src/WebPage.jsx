@@ -3,6 +3,7 @@ import Header from './Shared/Header'
 import Home from './Pages/home'
 import Benifits from './Pages/Benifits'
 import AboutUs from './Pages/AboutUs'
+import ContactUs from './Pages/ContactUs'
 
 function WebPage() {
   return (
@@ -12,6 +13,7 @@ function WebPage() {
         <Home />
         <Benifits />
         <AboutUs />
+        <ContactUs />
       </main>
     </div>
   )

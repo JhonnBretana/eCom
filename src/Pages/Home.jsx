@@ -28,7 +28,7 @@ function Home() {
       
     
 
-        <div className='flex flex-col md:flex-row pt-20 px-5 justify-center items-center  mt-10 '> 
+        <div className='flex flex-col md:flex-col lg:flex-row pt-20 px-5 justify-center items-center  mt-10 '> 
 
           
           {/*min-h-[90vh] means minimum height of 90vh*/}
@@ -47,8 +47,8 @@ function Home() {
           </div>
            
            {/*Model Image*/}
-           <div className='flex justify-center items-center z-10'>
-            <img src={model} alt="" className='w-xl md:w-7xl ' />
+           <div className='flex justify-center items-center z-10 md:mb-10'>
+            <img src={model} alt="" className='w-xl md:w-100 lg:w-7xl ' />
            </div>
         </div>
     </div>
