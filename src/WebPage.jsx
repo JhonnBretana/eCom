@@ -10,14 +10,28 @@ function WebPage() {
   return (
     <div className="flex flex-col min-h-screen bg-[#9EBC8A] ">
       <header>
-        <Header />
+        <Header   />
       </header>
       
       <main className="flex-grow">
-        <Home />
-        <Benifits />
+
+        <section id="home" className="min-h-screen]">
+           <Home  />
+        </section>
+
+        <section id="benefits" className='min-h-screen bg-[#73946B]'>
+          <Benifits  />
+        </section>
+
+        <section id="about"  className='min-h-screen bg-[#9EBC8A]'>
         <AboutUs />
+        </section>
+
+        <section id="contact" className=' bg-[#9EBC8A] mt-10'>
         <ContactUs />
+        </section>
+       
+        
       </main>
 
       <footer>

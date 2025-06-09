@@ -5,7 +5,7 @@ import Ceo from '../assets/image/Ceo.png'
 
 function AboutUs() {
   return (
-    <div className='min-h-screen bg-[#9EBC8A]'>
+    <div>
 
         {/*about us*/}
         <div className='flex flex-col  items-center justify-center bg-[#73946B] w-full h-40 relative md:h-60'>

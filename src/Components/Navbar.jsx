@@ -5,13 +5,42 @@ import logo from '../assets/image/icon.png'
 
 function Navbar() {
 
-  // State for mobile menu visibility
+
+
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-  // Toggle menu function for mobile view
+
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
   }
+
+  const scrollToSection = (sectionId) => {
+    
+    const targetSection = document.getElementById(sectionId)
+
+    if (targetSection) {
+
+      const navbarHeight = 80; 
+      const elementPosition = targetSection.offsetTop;
+      const offsetPosition = elementPosition - navbarHeight;
+      
+      window.scrollTo(
+        {
+          top: offsetPosition,
+          //offsetPosition is the position of the section minus the height of the navbar
+          //sample the offsetPosition is 500 and the navbar height is 80, so the top will be 420
+          behavior: 'smooth' 
+        }
+      )
+
+
+    }
+
+  };
+
+
+
+
 
   return (
     <nav className="fixed top-0 left-0 right-0 flex justify-between items-center px-4 py-4 shadow-md z-50 " style={{backgroundColor: '#73946B'}} >
@@ -49,10 +78,39 @@ function Navbar() {
         style={{transitionProperty: 'max-height, opacity'}}
         >
 
-          <a href="/" className='block md:inline-block py-2 px-4 text-white hover:text-gray-200  hover:shadow-md hover:bg-[#537D5D] rounded-md hover:text-black transition-colors'>Home</a>
-          <a href="/" className='block md:inline-block py-2 px-4 text-white hover:text-gray-200  hover:shadow-md hover:bg-[#537D5D] rounded-md hover:text-black transition-colors'>Benefits</a>
-          <a href="/" className='block md:inline-block py-2 px-4 text-white hover:text-gray-200  hover:shadow-md hover:bg-[#537D5D] rounded-md hover:text-black transition-colors'>About Us</a>
-          <a href="/" className='block md:inline-block py-2 px-4 text-white hover:text-gray-200  hover:shadow-md hover:bg-[#537D5D] rounded-md hover:text-black transition-colors'>Contact Us</a>
+          <a
+           href="#home" className='block md:inline-block py-2 px-4 text-white hover:text-gray-200  hover:shadow-md hover:bg-[#537D5D] rounded-md hover:text-black transition-colors' 
+          onClick= { (e) => {e.preventDefault();
+             scrollToSection('home');
+
+          }}>   
+          Home          
+           </a>
+
+
+
+          <a href="#benefits" className='block md:inline-block py-2 px-4 text-white hover:text-gray-200  hover:shadow-md hover:bg-[#537D5D] rounded-md hover:text-black transition-colors'
+          onClick={()=>{e.preventDefault(); 
+            scrollToSection('benefits');
+          }}        
+          >Benefits</a>
+
+
+          <a href="#about" className='block md:inline-block py-2 px-4 text-white hover:text-gray-200  hover:shadow-md hover:bg-[#537D5D] rounded-md hover:text-black transition-colors'
+          onClick={()=>{ 
+            e.preventDefault();
+            scrollToSection('about');
+          }}
+          >About Us</a>
+
+
+          <a href="#contact" className='block md:inline-block py-2 px-4 text-white hover:text-gray-200  hover:shadow-md hover:bg-[#537D5D] rounded-md hover:text-black transition-colors'
+          onClick={()=> {
+            e.preventDefault();
+            scrollToSection('contact');
+
+          }}
+          >Contact Us</a>
           
           
 

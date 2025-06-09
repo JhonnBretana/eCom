@@ -7,7 +7,7 @@ import { FaLeaf, FaLungs, FaHeart } from 'react-icons/fa'
 
 function Benifits() {
   return (
-    <div className='min-h-screen bg-[#73946B]'>
+    <div >
             <div className='container mx-auto flex flex-col items-center justify-center' >
               <div className='flex flex-col items-center justify-center mt-20 '>
                 <h1 className='text-4xl md:text-7xl text-white persona'>Lagundi Herbal Benefits </h1>

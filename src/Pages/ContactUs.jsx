@@ -4,7 +4,7 @@ import { FaEnvelope, FaPhone } from 'react-icons/fa';
 
 function ContactUs() {
   return (
-    <div className=' bg-[#9EBC8A] mt-10'>
+    <div >
         <div>
             <div className='flex flex-col items-center justify-center bg-[#73946B] w-full h-40 relative '>
                 <h1 className=" text-5xl text-white persona" >Contact Us</h1>
@@ -55,17 +55,17 @@ function ContactUs() {
                     <form action="" className='text-white' >
                         <div className='mb-5'>
                             <label htmlFor="name" className='text-1xl ' >Name:</label>
-                            <input type="text" id="name" placeholder='Enter your name' className='w-full p-1 rounded-md border-2 border-white bg-white shadow-md text-black text-1xl'  />
+                            <input type="text" id="name" placeholder='Enter your name' className='w-full p-1 rounded-md border-2 border-white bg-white  text-black text-1xl'  />
                         </div>
 
                         <div className='mb-5'>
                             <label htmlFor="email" className='text-1xl' >Email:</label>
-                            <input type="email" id="email" placeholder='Enter your email' className='w-full p-1 rounded-md border-2 border-white bg-white shadow-md text-black text-1xl '  />
+                            <input type="email" id="email" placeholder='Enter your email' className='w-full p-1 rounded-md border-2 border-white bg-white  text-black text-1xl '  />
                         </div>
 
                         <div className='mb-5'>
                             <label htmlFor="message" className='text-1xl' >Message:</label>
-                            <textarea id="message" placeholder='Enter your message' className='w-full h-15 p-1 rounded-md border-2 border-white bg-white shadow-md text-black text-1xl '  />
+                            <textarea id="message" placeholder='Enter your message' className='w-full h-15 p-1 rounded-md border-2 border-white bg-white  text-black text-1xl '  />
                         </div>
 
                         <div className='flex justify-center items-center'>

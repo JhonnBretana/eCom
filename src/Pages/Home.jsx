@@ -4,7 +4,7 @@ import overlay from '../assets/image/bg-overlay.png'
 
 function Home() {
   return (
-    <div className='min-h-screen  overflow-hidden relative '> 
+    <div className='overflow-hidden relative '> 
     {/*overlay image*/}
     
     
