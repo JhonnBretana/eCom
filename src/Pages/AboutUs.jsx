@@ -26,7 +26,7 @@ function AboutUs() {
 
         {/*main content*/}
         <div className='grid grid-cols-1 md:grid-cols-2 gap-10
-         mx-10 lg:mx-50  mt-20  h-90    '>
+         mx-10 lg:mx-full  mt-20  h-90    '>
             
 
             {/*our mission*/}

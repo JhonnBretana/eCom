@@ -18,7 +18,7 @@ function ContactUs() {
 
                     <h1 className='text-2xl md:text-4xl text-white persona' >Contact Details</h1>
 
-                    <div className='text-white flex flex-col items-center justify-center'>
+                    <div className='text-white flex flex-col items-center justify-center mt-5'>
                         <h3 className='text-1xl font-bold text-center mt-4 mb-2'>
                             Have questions, feedback, or need assistance?                                                      
                        </h3>
