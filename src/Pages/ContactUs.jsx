@@ -1,21 +1,18 @@
 
 import React from 'react'
-import { DiLaravel } from 'react-icons/di'
+import { FaEnvelope, FaPhone } from 'react-icons/fa';
 
 function ContactUs() {
   return (
     <div className='min-h-screen bg-[#9EBC8A] mt-10'>
         <div>
-            <div className='flex flex-col items-center justify-center bg-[#73946B] w-full h-40 relative md:h-40'>
-                <h1 className=" text-5xl md:text-7xl text-white persona" >Contact Us</h1>
-                
-
-
+            <div className='flex flex-col items-center justify-center bg-[#73946B] w-full h-40 relative '>
+                <h1 className=" text-5xl text-white persona" >Contact Us</h1>
             </div>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-10 px-10 mt-10'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-10 px-5 mt-10 mb-10 '>
 
-    {/*contact*/}
+                 {/*contact*/}
                 <div className='flex flex-col items-center justify-center bg-[#73946B] rounded-lg p-4
                  w-full  '>
 
@@ -26,10 +23,20 @@ function ContactUs() {
                             Have questions, feedback, or need assistance?                                                      
                        </h3>
 
-                        <p className='text-center text-1xl mb-4'>
-                            
-                        </p>
+                        <div className='flex flex-col  items-start gap-2 mb-4 mt-5'>
+                            <div className='flex items-center justify-center gap-2 mb-4'>
+                            <FaEnvelope className='text-2xl' > </FaEnvelope>
+                            <span>Docherbal@gmail.com</span>
+                            </div>
 
+                            
+                            <div className='flex items-center justify-center gap-2 mb-4'>
+                            <FaPhone className='text-2xl' > </FaPhone>
+                            <span>+63 945 7890 323 </span>
+                            </div>
+                        </div>
+                       
+                
 
 
                     </div>
