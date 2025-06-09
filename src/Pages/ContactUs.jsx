@@ -58,7 +58,7 @@ function ContactUs() {
 
                         <div className='mb-5'>
                             <label htmlFor="message" className='text-1xl' >Message:</label>
-                            <textarea id="message" placeholder='Enter your message' className='w-full p-1 rounded-md border-2 border-white bg-white shadow-md text-black text-1xl '  />
+                            <textarea id="message" placeholder='Enter your message' className='w-full h-15 p-1 rounded-md border-2 border-white bg-white shadow-md text-black text-1xl '  />
                         </div>
 
                         <div className='flex justify-center items-center'>
